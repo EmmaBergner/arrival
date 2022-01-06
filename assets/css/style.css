@@ -113,14 +113,42 @@ h1 {
 
 /* Photo Gallery */
 
-#photo {
-    clear: both; 
-    line-height: 0;
-    column-count: 2;   
-    column-gap: 0;
+
+footer {
+    height: 150px;
+    clear: both;    
 }
 
-#photos > img {
-    width: 100px;
-
+.social-networks {
+    text-align: center;
 }
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
+/* Form section */
+
+.form-section {
+    clear: both;
+    padding: 100px;
+    height: 25px;
+   
+}
+
+input[type=text] {
+    border: 1px solid #000000;
+  border-radius: 1px;
+  }
+
+  input[type=email] {
+    border: 1px solid #000000;
+    border-radius: 1px;
+  }
