@@ -14,12 +14,19 @@ body {
 
 /* headings and logo */
 
-h1, h2 {
+h1 {
 
     font-family: Raleway, arial ;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #000000;
+    color: #51a2d0;
+}
+
+h3 {
+    color: #f915c1;
+    text-transform: uppercase;
+    padding: 30px 0;
+    float: right;
 }
 
 #logo {
@@ -38,6 +45,7 @@ h1, h2 {
     float: right;
     list-style-type: none;
     margin-right: 30px;
+
 
 }
 /* info about destination */
@@ -59,8 +67,12 @@ h1, h2 {
     clear: both;
     margin-bottom: 50px;
     text-align: center;
-  
 }
+
+#info {
+background: url('..images/textholder.jpg');
+}
+
 
 /* image and cover text */ 
 
@@ -75,4 +87,18 @@ h1, h2 {
     margin-top: 30px;
     margin-right: 20px;
     margin: auto;
+}
+
+/* Photo Gallery */
+
+#photo {
+    clear: both; 
+    line-height: 0;
+    column-count: 2;   
+    column-gap: 0;
+}
+
+#photos > img {
+    width: 200px;
+    height: 100%;
 }
