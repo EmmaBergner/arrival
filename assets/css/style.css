@@ -121,6 +121,7 @@ footer {
 
 .social-networks {
     text-align: center;
+    clear: both;
 }
 
 .social-networks > li {
@@ -130,7 +131,7 @@ footer {
 .social-networks i {
     font-size: 160%;
     margin: 1%;
-    padding: 5%;
+    padding: 5px;
     color: #3a3a3a;
 }
 
@@ -144,11 +145,31 @@ footer {
 }
 
 input[type=text] {
-    border: 1px solid #000000;
-  border-radius: 1px;
+    border-bottom: 2px solid rgba(71, 71, 71, 0.24);
+    border-radius: 1px;
+    padding: 12px 20px;
+    margin-bottom: 50px;
+    max-width: 500px;
+    width: 100%;
   }
 
   input[type=email] {
-    border: 1px solid #000000;
+    border-bottom: 2px solid rgba(71, 71, 71, 0.24);
     border-radius: 1px;
+    padding: 12px 20px;
+    margin-bottom: 50px;
+    max-width: 500px;
+    width: 100%;
+  }
+
+  input[type=submit] {
+    background-color: #45a049;
+  }
+
+  .nofloat {
+      clear: both;
+  }
+
+  .form-section h2 {
+    margin-bottom: 50px;
   }
