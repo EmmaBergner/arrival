@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- Header and title -->
 
 <head>
     <meta charset="UTF-8">
@@ -30,79 +31,61 @@
             </ul>
         </nav>
     </header>
-<div class="nofloat">
-    <section class="form-section">
-        <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
 
-            <h2> We are frilled you want to join us on this day!
-                Please fill in bellow and we will be in touch!
-            </h2>
+    <!-- Form sectioon -->
+    <div class="nofloat">
+        <section class="form-section">
+            <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
 
-
-            <p>
-                <label for="fname">First Name</label> <br>
-                <input type="text" id="fname" name="first_name" class="text-input" required>
-            </p>
-            <p>
-                <label for="lname">Last Name</label> <br>
-                <input type="text" id="lname" name="last_name" class="text-input" required>
-            </p>
-            <p>
-                <label for="email">Email Address</label> <br>
-                <input type="email" id="email" name="email_address" class="text-input" required>
-            </p>
-            <p>
-                <label for="lname">Date</label> <br>
-                <input type="text" id="lname" name="last_name" class="text-input" required>
-            </p>
-            <p>
-                <label for="email">Group Size</label> <br>
-                <input type="email" id="email" name="email_address" class="text-input" required>
-            </p>
-
-            Select which tour you would like to do:
+                <h2>We are frilled you want to join us on this day!
+                    Please fill in bellow and we will be in touch!</h2>
 
 
-            <p> <label for="road">Old Town</label>
-                <input type="radio" value="road" id="road" name="running_preference" required>
-                &nbsp;&nbsp;&nbsp;
-                <label for="trail">City Hall</label>
-                <input type="radio" value="trail" id="trail" name="running_preference" required>
-                &nbsp;&nbsp;&nbsp;
-                <label for="both">Drottnignholm</label>
-                <input type="radio" value="both" id="both" name="running_preference" required>
-            </p>
-            <p>
 
-                <input type="submit" value="Submit" class="join-button">
-            </p>
-        </form>
-    </section>
-<br>
-<br>
+                <p>
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="first_name" class="text-input" required>
+                </p>
+                <p>
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="last_name" class="text-input" required>
+                </p>
+                <p>
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email_address" class="text-input" required>
+                </p>
+                <p>
+                    <label for="size">Group Size</label>
+                    <input type="size" id="size" name="group_size" class="text-input" required>
 
-    <footer>
-        <ul class="social-networks">
-            <li>
-                <a href="https://www.facebook.com/" target="_blank" rel="nooperner"
-                    aria-label="visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook-square"></i></a>
-            </li>
-            <li>
-                <a href="https://twitter.com/" target="_blank" rel="nooperner"
-                    aria-label="visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter"></i> </a>
-            </li>
-            <li>
-                <a href="https://www.youtube.com/" target="_blank" rel="nooperner"
-                    aria-label="visit our Youtube page (opens in a new tab)"> <i class="fab fa-youtube-square"></i></a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/" target="_blank" rel="nooperner"
-                    aria-label="visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
-            </li>
-        </ul>
-    </footer>
-    <script src="https://kit.fontawesome.com/c471c78bf3.js" crossorigin="anonymous"></script>
-</div>
+                </p>
+                <p>
+                    <label for="date">Date</label>
+                    <input type="date" id="date" name="date" class="text-input" required>
+                </p>
+
+
+
+                Select which tour you would like to do:
+
+
+                <p> <label for="road">Old Town</label>
+                    <input type="checkbox" value="road" id="road" name="running_preference" required>
+
+                    <label for="trail">City Hall</label>
+                    <input type="checkbox" value="trail" id="trail" name="running_preference" required>
+
+                    <label for="both">Drottnignholm</label>
+                    <input type="checkbox" value="both" id="both" name="running_preference" required>
+                </p>
+                <p>
+
+                    <input type="submit" value="We'll be in touch!" class="join-button">
+                </p>
+            </form>
+        </section>
+
+    </div>
 </body>
 
 </html>
