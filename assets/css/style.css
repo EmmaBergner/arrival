@@ -61,14 +61,13 @@ h1 {
     width: 100%;
     background: url('../images/testar.jpg') no-repeat center center;
 }
-
 #cover-text {
     font-size: 90%;
     font-family: verdana, sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
 
-    width: 300px;
+    max-width: 300px;
     height: 200px;
 
     padding-top: 80px;
@@ -80,9 +79,13 @@ h1 {
 
     position: absolute;
 
-    margin-top: 30px;
-    margin-right: 20px;
-    margin: auto;
+}
+/* For larger to medium screens size from 600px wide and down */
+@media screen and (max-width: 600px) {
+#cover-text {
+
+    left: 0%;
+}
 }
 
 /* info about destination */
@@ -90,7 +93,6 @@ h1 {
 * {
     box-sizing: border-box;
 }
-
 .tour {
     font-size: 80%;
     width: 70%;
@@ -98,17 +100,27 @@ h1 {
     text-align: left;
     padding: 10px 70px 10px 70px;
 }
+/* For larger to medium screens size from 600px wide and down */
+@media screen and (max-width: 600px) {
+    .tour {
+        font-size: 80%;
+        width: 100%;
+        float: left;
+        text-align: left;
+        padding: 10px 10px 10px 10px;
+    }
+}
 
 .tour h2 {
     text-align: center;
     text-transform: uppercase;
+    padding: 10px;
 
 }
 
 .tour a {
     color: grey;
 }
-
 
 /* quick info about tour */
 
@@ -122,12 +134,26 @@ h1 {
     background-color: whitesmoke; 
     border-spacing: 0%;
     border-style: double;
-    
 }
+/* For larger to medium screens size from 600px wide and down */
+@media screen and (max-width: 600px) {
+    .info {
+        font-size: 70%;
+        width: 100%;
+        float: left;
+        padding: 30px;
+        text-align: center;
+        min-width: 200px;
+        background-color: whitesmoke; 
+        border-spacing: 0%;
+        border-style: double;
+    }   
+}
+
 .info h2 {
     text-align: center;
     text-transform: uppercase;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 10px;
 
 }
@@ -197,7 +223,7 @@ footer {
 
 
 #cover-texter {
-    font-size: 70%;
+    font-size: 90%;
     font-family: verdana, sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -206,10 +232,23 @@ footer {
     color: black;
 
     top: 0px;
-    left: 60%;
+    left: 15%;
 
     margin: auto;
+
+    width: 700px;
+    height: 200px;
+
+ 
+
+    position: absolute;
+
+    margin-top: 30px;
+    margin-right: 20px;
+
+    padding: 80px 10px 80px 10px;
 }
+
 
 .form-section {
     clear: both;
@@ -225,6 +264,7 @@ input[type=text] {
     margin-bottom: 50px;
     max-width: 500px;
     width: 100%;
+    font-size: 110%;
     
   }
 
@@ -255,13 +295,17 @@ select {
 .aligned { 
     float: left;
     width: 150px;
+    font-size: 110%;
 }
 
+#size {
+    font-size: 110%;
+}
 
   .join-button {
     color: #51a2d0;
     background-color: rgba(71, 71, 71, 0.24);
-    margin: 10px;
+    margin: 50px 30px 50px 30px;
     padding: 5px;
 
     border-width:3px;  
@@ -272,5 +316,10 @@ select {
       clear: both;
   }
 
-
-  
+  .text-input {
+      border-radius: 4px;
+      direction: ltr;
+      font-size: 110% !important;
+      font-family: Verdana;
+      
+  }
