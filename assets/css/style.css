@@ -76,8 +76,8 @@ h1 {
     position: absolute;
 }
 
-/* For small screens size from 600px wide and down */
-@media screen and (max-width: 600px) {
+/* For small screens size from 700px wide and down */
+@media screen and (max-width: 700px) {
     #cover-text {
         left: 0%;
     }
@@ -97,8 +97,8 @@ h1 {
     padding: 10px 70px 10px 70px;
 }
 
-/* For small screens size from 600px wide and down */
-@media screen and (max-width: 600px) {
+/* For small screens size from 700px wide and down */
+@media screen and (max-width: 700px) {
     .tour {
         font-size: 80%;
         width: 100%;
@@ -128,12 +128,11 @@ h1 {
     text-align: center;
     min-width: 200px;
     background-color: whitesmoke; 
-    border-spacing: 0%;
     border-style: double;
 }
 
-/* For small screens size from 600px wide and down */
-@media screen and (max-width: 600px) {
+/* For small screens size from 700px wide and down */
+@media screen and (max-width: 700px) {
     .info {
         font-size: 70%;
         width: 100%;
@@ -141,8 +140,6 @@ h1 {
         padding: 30px;
         text-align: center;
         min-width: 200px;
-        background-color: whitesmoke; 
-        border-spacing: 0%;
         border-style: double;
     }   
 }
