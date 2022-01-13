@@ -1,8 +1,8 @@
 # Arrival Stockholm 
 
-The Arrive Stockholm website is a page for visitors visiting Stockholm and looking for a personal guide. The guide (business) offers three different well known destinations, chosen by own knowledge and experience. 
+The [Arrive Stockholm website ](https://emmabergner.github.io/arrival/) is a page for visitors visiting Stockholm and looking for a personal guide. The service offers three different well known destinations.
 
-On this website users will be able to find more information about the different tours that are being offered by Arrive Stockholm in order to submit an interest form. Information about the tours, dates, pricing, inspirational photos, contact information together with an interest form. 
+On this website users will be able to find more information about the different tours that are being offered by Arrive Stockholm and to sign up. The service offers information about the tours, dates, pricing, inspirational photos and a contact form. 
 
 ![Displays](assets/readme/ami.png)
 
@@ -10,11 +10,10 @@ On this website users will be able to find more information about the different 
 - The purpose of the site is to get a quick and trustworthy overview of the service.
 - The visitor should be able to easily navigate throughout the site to find information about the service provided. 
 - The simpleness gives the result of visitors deciding to submit a form of interest. 
- 	
 
 ## Features 
 - __Navigation Bar__
-    - The navigation bar includes three pages: Home page, Photos page and Interest Form page. 
+    - The navigation bar includes three pages: Home page, Photos page and Contact page. 
     - This section will allow the user to easily navigate between the pages, across all three pages without having to go back and through the Home page. 
 ![Navigation bar](assets/readme/header.png)
 
@@ -30,8 +29,7 @@ On this website users will be able to find more information about the different 
 
 - __About Our Tours Section__
     - The About Our Tours section gives the basic information: days and times, languages the tour offers, what is included, price per person. And minimum and maximum group sizes. 
-    - This info gives the visitor the information they need to know in order to continue and submitting the Interest Form. 
-
+    - This info gives the visitor the information they need to know in order to continue and submitting a Form. 
 ![Infomation](assets/readme/tour.png)
 
 - __The Footer__
@@ -46,7 +44,7 @@ On this website users will be able to find more information about the different 
 
 
 - __The Contact Page__
-    - This page will allow visitors to fill in an interest form and to be contacted after their request. The form has required fields: First and last name, email, group size, requested date and the tours. 
+    - This page will allow visitors to fill in a form and to be contacted after their request. The form has required fields: First and last name, email, group size, requested date and the tours. 
     - This is a simple and straight-forward page, with the purpose of getting a tour booked. 
 ![Contact page](assets/readme/form.png)
 
