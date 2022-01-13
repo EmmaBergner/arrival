@@ -48,7 +48,7 @@ On this website users will be able to find more information about the different 
 - __The Contact Page__
     - This page will allow visitors to fill in an interest form and to be contacted after their request. The form has required fields: First and last name, email, group size, requested date and the tours. 
     - This is a simple and straight-forward page, with the purpose of getting a tour booked. 
-![Contact page](assets/readme/contact.png)
+![Contact page](assets/readme/form.png)
 
 ## Technologies Used 
 
