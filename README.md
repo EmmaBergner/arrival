@@ -21,18 +21,18 @@ On this website users will be able to find more information about the different 
 - __The landing page__
     - The landing page includes a photograph with text overlay, placed across the head of the page.
     - The section welcomes users to the website and grabs their attention with an eye-catching photograph.
-![Landing page](assets/readme/coverphoto.png)
+![Landing page](assets/readme/cover.png)
 
 - __The Destinations Section__
    - The Destinations section allows users to get information about the tours being offered. Followed for them all with “More…” which is linked to VisitStockholm.se for more information about each specific destination. 
    - This allows users to get an overview of what is being offered after their own interest. And to easily get more information but without being overloaded with text. The links will open in a new tab to allow easy navigation for the users.
-![Destinations](assets/readme/destinations.png)
+![Destinations](assets/readme/places.png)
 
 - __About Our Tours Section__
     - The About Our Tours section gives the basic information: days and times, languages the tour offers, what is included, price per person. And minimum and maximum group sizes. 
     - This info gives the visitor the information they need to know in order to continue and submitting the Interest Form. 
 
-![Infomation](assets/readme/aboutourtours.png)
+![Infomation](assets/readme/tour.png)
 
 - __The Footer__
     - The Footer section includes links to social media sites: Facebook, Twitter, Youtube and Instagram. The links will open to a new tab to allow easy navigation for the users. 
@@ -48,7 +48,7 @@ On this website users will be able to find more information about the different 
 - __The Contact Page__
     - This page will allow visitors to fill in an interest form and to be contacted after their request. The form has required fields: First and last name, email, group size, requested date and the tours. 
     - This is a simple and straight-forward page, with the purpose of getting a tour booked. 
-![Contact page](assets/readme/form.) FIX!!!
+![Contact page](assets/readme/contact.png)
 
 ## Technologies Used 
 
